@@ -19,6 +19,9 @@ const Listes = {
   "quoi de neuf": "Pas grand-chose, et toi ?",
   "tu fais quoi": "Je discute avec toi 😄",
   "t'es qui": "Je suis ton assistant virtuel 🧠",
+  "je vais bien": "C'est super !",
+  "ça va bien": "c'est génial !",
+  "ça va plutôt bien": "cool !",
 
   // Temps et météo
   "il fait beau": "Oui, j'adore le soleil ! ☀️",
