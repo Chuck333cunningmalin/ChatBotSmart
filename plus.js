@@ -1,20 +1,34 @@
 import { Listes } from './Liste.js';
 
-// Cibler les éléments HTML
 const input = document.getElementById("user-input");
 const button = document.getElementById("send-button");
-const messageBox = document.getElementById("reponse");
+const messagesDiv = document.getElementById("messages");
 
-// Écouter le clic sur le bouton
-button.addEventListener("click", () => {
-    const mot = input.value.trim().toLowerCase(); // Nettoyage et minuscule
-
-// Vérification dans la liste
-if (Listes[mot]) {
-    messageBox.textContent = Listes[mot];
-} else {
-    messageBox.textContent = "Désolé, je ne connais pas ce mot.";
+// Fonction pour ajouter un message dans le chat
+function addMessage(text, sender) {
+    const message = document.createElement("div");
+    message.classList.add("message", sender);
+    message.textContent = text;
+    messagesDiv.appendChild(message);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight; // scroll auto vers le bas
 }
 
-input.value = ""; // Effacer le champ après l'envoi
+// Événement bouton
+button.addEventListener("click", sendMessage);
+
+// Touche Entrée = envoi aussi
+input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") sendMessage();
 });
+
+function sendMessage() {
+    const mot = input.value.trim().toLowerCase();
+    if (!mot) return;
+
+    addMessage("👤 " + input.value, "user");
+
+    const reponse = Listes[mot] || "🤖 Désolé, je ne connais pas ce mot.";
+    addMessage(reponse, "bot");
+
+    input.value = "";
+}
