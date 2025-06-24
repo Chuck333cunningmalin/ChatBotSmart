@@ -585,6 +585,147 @@ const Listes = {
   "chanter te détend-il vraiment, ou est-ce juste un plaisir occasionnel ?": "Chanter libère beaucoup d’émotions, essaie si tu peux.",
   "danser te procure-t-il un sentiment de liberté ?": "La danse est une belle façon d’exprimer ses émotions.",
   "quels petits projets de bricolage te passionnent actuellement ?": "Le bricolage stimule l’esprit, tu travailles sur quoi ?",
+  "hello": "Hello ! Comment ça se passe ? 😊",
+  "kikou": "Kikou ! Toujours là ?",
+  "well": "Well, salut toi !",
+  "wesh alors": "Wesh ! Ça roule ma poule ?",
+  "salut mec": "Salut ! Ça va comme tu veux ?",
+  "salut meuf": "Salut beauté ! Quoi de beau ?",
+  "re": "Re ! Content de te revoir 😄",
+  "rebonjour": "Rebonjour ! Tu reviens déjà ? 😉",
+
+  // Expressions d'humeur variées
+  "j'suis deg": "Oh non, qu'est-ce qui t'arrive ? 😔",
+  "j'suis déprimé": "Courage, ça va remonter 💙",
+  "j'suis hyper": "Waouh, t'es en forme ! 🚀",
+  "j'suis speed": "Tu carbures à quoi ? ⚡",
+  "j'suis relax": "Cool, profite de ce moment zen 😌",
+  "j'suis perdu": "On va trouver une solution ensemble 🧭",
+  "j'suis motivé": "Super ! Cette énergie me plaît 💪",
+  "j'suis blasé": "Je comprends, parfois c'est dur 😐",
+  "j'suis nostalgique": "Les souvenirs remontent ? 💭",
+  "j'suis optimiste": "J'adore cette attitude positive ! ✨",
+
+  // Expressions de besoin
+  "j'ai besoin de parler": "Je t'écoute, vas-y 👂",
+  "j'ai envie de rigoler": "Allez, on va se marrer ! 😆",
+  "j'ai la flemme": "On a tous ces moments 😴",
+  "j'ai chaud": "Trouve un coin frais ! 🌡️",
+  "j'ai mal": "Prends soin de toi 🩹",
+  "j'ai honte": "Ça arrive, l'important c'est d'avancer 💜",
+  "j'ai la pêche": "Génial, garde cette énergie ! 🍑",
+  "j'ai le cafard": "Un câlin virtuel pour toi 🤗",
+  "j'ai du mal": "Je suis là pour t'épauler ❤️",
+  "j'ai de la chance": "C'est cool, profite ! 🍀",
+
+  // Questions existentielles
+  "qu'est-ce que je fais là": "Tu te poses les bonnes questions 🤔",
+  "pourquoi moi": "Parfois la vie est injuste 💫",
+  "qu'est-ce qui m'arrive": "Raconte-moi tout 🗣️",
+  "c'est quoi le sens": "Vaste question philosophique ! 🌌",
+  "à quoi ça sert": "Bonne réflexion, creusons ensemble 💡",
+
+  // Activités du moment
+  "je traîne": "Parfois c'est bien de ne rien faire 🛋️",
+  "je procrastine": "On connaît tous ça 😅",
+  "je galère": "Courage, ça va le faire ! 💪",
+  "je kiffe": "Super que tu apprécies ! 😍",
+  "je glandouille": "Un peu de farniente, pourquoi pas ? 😎",
+  "je zône": "Mode relax activé ! 🧘",
+  "je papote": "J'adore papoter aussi ! 💬",
+  "je râle": "Allez, vide ton sac ! 😤",
+  "je réfléchis trop": "Parfois il faut lâcher prise 🕊️",
+  "je plane": "Tu es dans quel nuage ? ☁️",
+
+  // Nourriture et envies
+  "j'ai la dalle": "Il est temps de manger ! 🍽️",
+  "je crève de soif": "Vite un grand verre d'eau ! 🥤",
+  "ça sent bon": "Mmm, ça donne envie ! 👃",
+  "c'est dégueulasse": "Berk, pas terrible 🤢",
+  "c'est délicieux": "Miam, tu me donnes faim ! 😋",
+  "j'ai mangé comme un cochon": "Ça arrive, pas de culpabilité ! 🐷",
+  "régime": "Courage pour tes objectifs ! 🥗",
+  "grignotage": "On craque tous parfois 🍿",
+
+  // Argot et expressions jeunes
+  "c'est stylé": "Grave, c'est cool ! 😎",
+  "c'est chelou": "Ouais, bizarre ton truc 🤨",
+  "c'est ouf": "Complètement dingue ! 🤯",
+  "ça craint": "Pas terrible en effet 😬",
+  "ça déchire sa mère": "Excellent ! 🔥",
+  "j'suis choqué": "Waouh, c'est énorme ! 😱",
+  "j'suis mort": "Tu me tues 💀",
+  "j'suis sec": "Plus d'inspiration ? 🏜️",
+  "wallah": "Je te crois ! 👍",
+  "franchement": "Tu as raison d'insister 💯",
+
+  // Problèmes techniques
+  "ça bug": "Essaie de redémarrer 🔄",
+  "ça plante": "Sauvegarde vite ! 💾",
+  "ça freeze": "Patience, ça va repartir ❄️",
+  "ça rame": "Ton appareil a besoin de repos 🐌",
+  "j'ai un virus": "Fais un scan rapidement ! 🦠",
+  "j'ai planté": "Aïe, t'as sauvegardé ? 💻",
+  "connection pourrie": "Internet fait des siennes 📶",
+  "batterie morte": "Branche-toi vite ! 🔋",
+
+  // Relations et social
+  "je craque sur quelqu'un": "Aww, raconte-moi ! 💕",
+  "on s'est pris le bec": "Ça arrive dans toute relation 💔",
+  "je suis largué": "Prends ton temps pour comprendre 🤷",
+  "je suis paumé": "On va démêler ça ensemble 🗺️",
+  "mes potes me gonflent": "Parfois l'amitié c'est compliqué 😔",
+  "je suis populaire": "Cool, tu rayonnes ! ⭐",
+  "personne me comprend": "Moi je t'écoute 👂",
+  "je me sens seul": "Tu n'es jamais vraiment seul 🤝",
+
+  // Projet et ambitions
+  "j'ai un projet": "Raconte, ça m'intéresse ! 💡",
+  "je rêve de": "Les rêves c'est important ! ✨",
+  "j'ai une idée": "Super, développe ça ! 🧠",
+  "je veux réussir": "Avec cette motivation, c'est parti ! 🎯",
+  "j'abandonne": "Ne lâche pas maintenant ! 🚫",
+  "je vais essayer": "C'est déjà un bon début ! 👍",
+  "j'ose pas": "Parfois il faut oser ! 🦁",
+  "je doute": "Le doute fait partie du chemin 🤔",
+
+  // Expressions temporelles
+  "ça fait longtemps": "Le temps passe vite ! ⏰",
+  "j'ai pas le temps": "On court tous après le temps ⏱️",
+  "je suis en retard": "Dépêche-toi ! 🏃‍♂️",
+  "j'suis en avance": "Parfait, tu gères ! ⏰",
+  "vivement demain": "Impatient de voir ça ! 📅",
+  "j'ai hâte": "L'attente rend tout plus beau ! ⌛",
+  "c'était mieux avant": "Nostalgie quand tu nous tiens 📸",
+  "dans le futur": "Que nous réserve l'avenir ? 🔮",
+
+  // Météo alternative
+  "y fait un temps de chien": "Pas terrible comme météo 🌧️",
+  "c'est la canicule": "Reste à l'ombre ! 🥵",
+  "y a du verglas": "Attention en marchant ! 🧊",
+  "c'est tout gris": "Le ciel fait la tête 🌫️",
+  "le soleil tape": "Protection solaire obligatoire ! ☀️",
+  "y a de l'orage dans l'air": "L'atmosphère est électrique ⚡",
+
+  // Loisirs spécifiques
+  "je binge watch": "Quelle série t'absorbe ? 📺",
+  "je scroll": "L'infini scroll des réseaux ! 📱",
+  "je stream": "Tu joues à quoi ? 🎮",
+  "je vlog": "Youtubeur en herbe ? 🎬",
+  "je pose": "Mode selfie activé ! 🤳",
+  "je chill": "Mode détente maximum 😌",
+
+  // Réactions courantes
+  "no way": "Incroyable ! 😲",
+  "for real": "Sérieusement ? 🤨",
+  "what": "Hein ? 😕",
+  "omg": "Oh mon dieu ! 😱",
+  "wtf": "C'est quoi ce délire ? 🤯",
+  "epic": "Légendaire ! 🏆",
+  "fail": "Raté ! 🤦‍♂️",
+  "win": "Victoire ! 🎉",
+  "mood": "Humeur du jour ! 💭",
+  "same": "Pareil pour moi ! 🙋‍♂️",
 };
 
 
