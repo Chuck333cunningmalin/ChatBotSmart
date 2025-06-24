@@ -27,7 +27,7 @@ function sendMessage() {
 
     addMessage("👤 " + input.value, "user");
 
-    const reponse = Listes[mot] || "🤖 Désolé, je ne connais pas ce mot.";
+    const reponse = Listes[mot] || "Je suis désolé, j'ai pas compris ce que tu voulais dire, peut tu le dire d'une autre manière ?";
     addMessage(reponse, "bot");
 
     input.value = "";
