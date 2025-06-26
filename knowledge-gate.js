@@ -3,7 +3,7 @@ const knowledgeType = "books";
 
 // Fonction qui redirige vers l'API adaptée selon knowledgeType
 async function getRecommendation(query) {
-  if (knowledgeType === "books") {
+  if (knowledgeType === "movies") {
     return await getBooks(query);
   } else if (knowledgeType === "movies") {
     return await getMovies(query);
